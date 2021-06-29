@@ -1,6 +1,9 @@
 # Customizing antd without craco or ejecting
 (or: how to use Less CSS with create-react-app (but really, stick to cra defaults))
 
+> **Note**: Using create-react-app@5? Have a look at the
+> [updated guide](https://github.com/tommie-lie/cra-antd-customization/tree/cra%405)
+
 There are many guides showing how to customize antd in a create-react-app
 out there, but so far I have not found any that go without using craco,
 react-app-rewired or similar solutions to mess with cra's default config.

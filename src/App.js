@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-webpack-loader-syntax
-import "!style-loader!css-loader!less-loader?{'lessOptions':{'javascriptEnabled':true}}!./antd-overrides.less";
+import "./antd-overrides.less.css!=!less-loader?{'lessOptions':{'javascriptEnabled':true}}!./antd-overrides.less";
 import { Button, Input, Space, Typography } from "antd";
 
 function App() {
