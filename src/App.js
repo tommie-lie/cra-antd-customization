@@ -1,11 +1,16 @@
-import "antd/dist/antd.min.css";
-import { Button, Typography } from "antd";
+import "./customized-antd.css";
+import { Button, Input, Space, Typography } from "antd";
 
 function App() {
   return (
     <>
       <Typography.Title>Customize antd without hassle</Typography.Title>
-      <Button type="primary">This is a button</Button>
+      <div style={{ marginLeft: "2em" }}>
+        <Space direction="vertical">
+          <Input style={{ width: "250px" }} />
+          <Button type="primary">This is a button</Button>
+        </Space>
+      </div>
     </>
   );
 }
